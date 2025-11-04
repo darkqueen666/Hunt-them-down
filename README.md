@@ -5,7 +5,7 @@
 `WASD` — Move  
 `Mouse` — Look around  
 
-![DOOM](/screenshots/0.jpg)
+[DOOM](/screenshots/0.jpg)
 
 ## 🧠 About  
 This project is a Python-based learning game that explores **raycasting** to simulate 3D environments — similar to the early classics *DOOM* and *Wolfenstein 3D*.  
@@ -20,3 +20,4 @@ It’s a fully playable prototype built from scratch using **Pygame**, focused o
 
 
 or just open the folder and run the main.py
+
