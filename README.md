@@ -1,4 +1,4 @@
-# Hunt-them-down 3D (Raycasting) Game in Python  
+# 🔥 DOOM-Style 3D (Raycasting) Game in Python  
 *A retro shooter inspired by Wolfenstein 3D — built with Pygame.*
 
 ## 🎮 Controls  
