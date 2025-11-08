@@ -1,21 +1,80 @@
-MIT License
+Source-Available Learn-Only License (SALO-1.0)
 
-Copyright (c) 2025 darkqueen666
+Licensor/Owner: darkqueen666
+Project/Repository: https://github.com/darkqueen666/Hunt-them-down
+Effective Date: 2025-11-08
+Jurisdiction: Germany
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Acceptance. By downloading, using, or keeping any copy of this project, you accept these terms.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Plain-English Summary (non-binding aid)
+- You may run the unmodified programs for your own personal use.
+- You may read and study the source to learn and improve your skills.
+- You may make private notes/snippets for learning, kept private and not published or shared.
+- Everything else is forbidden: copying, sharing, hosting, reuploading, modifying, merging, selling, sublicensing, open-sourcing, using in other projects, making derivatives, or any AI/ML training/benchmarking.
+- If you break the rules, your rights end automatically, and you must delete your copies (you can keep private learning notes that don’t include the code verbatim).
+- Provided AS IS with no warranty and no liability. No patent license is granted.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The summary helps understanding; the numbered sections below are the binding terms.
+
+1) License Grant (Limited Permission)
+1.1 Grant. Licensor grants you a limited, personal, non-exclusive, non-transferable, revocable license to:
+   a) Run/execute the unmodified programs for your personal, non-commercial use; and
+   b) Read and study the source code for educational purposes; and
+   c) Create private notes or short snippets solely for your own learning, never shared or published.
+1.2 No other rights are granted. All rights not expressly granted are reserved by the Licensor.
+
+2) Prohibited Uses (Strict)
+You must not, and must not allow others to:
+2.1 Copy/Redistribute. Copy, redistribute, publish, host, mirror, reupload, or otherwise make the code (or any substantial portion) available to others, in any form (including gists, forums, drives, zip files, or torrents).
+2.2 Modify/Derive. Modify, adapt, translate, port, reverse-engineer for the purpose of creating derivatives, or merge any part of the code into other software, libraries, plugins, or codebases (public or private).
+2.3 Commercial Use. Use the project for any commercial purpose, including selling, renting, offering as a service (SaaS), advertising, paid hosting, or internal commercial tooling.
+2.4 Sublicense/Relicense. Sublicense, relicense, or apply any other license (including open-source licenses) to this project or any portion of it.
+2.5 AI/ML Use (No AI/ML Training). Use the code, outputs, artifacts, or any portion to train, fine-tune, benchmark, evaluate, or improve AI/ML models; create datasets; generate embeddings; or otherwise include in AI/ML pipelines.
+2.6 Codebase Inclusion. Incorporate any portion into any public or private repository, package manager, template, boilerplate, or internal/shared codebase.
+2.7 Binaries. Distribute compiled binaries or builds except those released by the Licensor.
+
+3) Attribution & Notices
+3.1 Notices. You must keep copyright and license notices intact in any local copies.
+3.2 No Endorsement. You must not use the Licensor’s name, logo, or trademarks to imply endorsement or affiliation.
+
+4) Ownership & Patents
+4.1 Ownership. The project is owned by the Licensor. This license does not transfer ownership.
+4.2 No Patent License. No express or implied patent rights are granted.
+
+5) Termination
+5.1 Automatic Termination. Any breach automatically terminates your rights under this license.
+5.2 Post-Termination. Upon termination, you must immediately delete all copies (source and binaries) in your possession or control. You may keep purely personal learning notes that do not contain verbatim code or substantial portions thereof.
+
+6) Warranty & Liability
+6.1 AS IS. The project is provided “AS IS”, without warranties or conditions of any kind.
+6.2 No Liability. To the maximum extent permitted by law, the Licensor is not liable for any damages or claims arising from use of the project.
+
+7) Governing Law & Miscellaneous
+7.1 Governing Law. If specified, this license is governed by the laws of Germany, excluding conflict-of-laws rules.
+7.2 Severability. If any provision is unenforceable, the remainder remains in effect.
+7.3 Entire Agreement. These terms are the entire agreement regarding the project’s permitted use.
+
+FAQ / Examples
+Q1. Can I run the game/app as-is on my PC?
+A1. Yes. Running the unmodified program for personal use is allowed.
+
+Q2. Can I read the code to learn and copy a few lines into my private notes?
+A2. Yes, for private learning only, and your notes must not be shared or published. Avoid verbatim large chunks.
+
+Q3. Can I fork the repo or upload the code to my own repo or a Gist (even private)?
+A3. No. No copying, hosting, mirroring, or reuploading—public or private.
+
+Q4. Can I modify the code for my own project or merge parts into another codebase?
+A4. No. No modifications, derivatives, ports, or merges are allowed.
+
+Q5. Can I stream or post screenshots/videos of the unmodified program running?
+A5. Generally yes, showing the program in use is fine. Do not share the code or any binaries; comply with any project asset/trademark guidance.
+
+Q6. Can my company use this internally or as inspiration for a product?
+A6. No, commercial and internal commercial tooling uses are forbidden. Reading to learn personally is fine; using code or ideas directly in a product is not permitted.
+
+Q7. Can I use this code to train or benchmark an AI model, or include it in a dataset/embeddings?
+A7. No. Absolutely no AI/ML training, fine-tuning, benchmarking, evaluation, dataset creation, or embeddings.
+
+Contact: For permissions beyond this license, contact: darkqueen666
