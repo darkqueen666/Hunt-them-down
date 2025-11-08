@@ -1,5 +1,6 @@
-import pygame as pg
+import os
 import sys
+import pygame as pg
 from settings import *
 from map import *
 from player import *
@@ -11,12 +12,30 @@ from weapon import *
 from sound import *
 from pathfinding import *
 
+def _app_base():
+    # When frozen by PyInstaller:
+    if getattr(sys, "frozen", False):
+        # onefile extracts to _MEIPASS; onedir runs from the exe folder
+        return getattr(sys, "_MEIPASS", os.path.dirname(sys.executable))
+    # normal dev run
+    return os.path.dirname(os.path.abspath(__file__))
+
+# Make sure relative paths like "resources/..." resolve correctly
+os.chdir(_app_base())
+
+def resource_path(rel_path: str) -> str:
+    """Get absolute path to resource, works for dev and for PyInstaller bundle."""
+    base = getattr(sys, "_MEIPASS", os.path.dirname(__file__))
+    return os.path.join(base, rel_path)
+
 
 class Game:
     def __init__(self):
         pg.init()
         pg.mouse.set_visible(False)
         self.screen = pg.display.set_mode(RES)
+        pg.display.set_caption("Hunt Them Down")
+        pg.display.set_icon(pg.image.load(resource_path("resources/textures/logo.png")))
         pg.event.set_grab(True)
         self.clock = pg.time.Clock()
         self.delta_time = 1
@@ -43,7 +62,7 @@ class Game:
         self.weapon.update()
         pg.display.flip()
         self.delta_time = self.clock.tick(FPS)
-        pg.display.set_caption(f'{self.clock.get_fps() :.1f}')
+
 
     def draw(self):
         # self.screen.fill('black')
