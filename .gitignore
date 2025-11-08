@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Envs & IDE
+.venv/
+.env
+.vscode/
+.idea/
